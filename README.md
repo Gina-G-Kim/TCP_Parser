@@ -8,8 +8,6 @@ OS: Ubuntu 22.04, WSL
 Library: PcapPlusPlus
 
 ## Sample pcap file
-sample pcap file:
-
   - sample1.pcap: `chargen-tcp.pcap` (libpcap) Chargen over TCP.
   
   - sample2.pcap: `cmp_in_http_with_pkixcmp-poll_content_type.pcap` (libpcap) Certificate Management Protocol (CMP) version 2 encapsulated in HTTP. The CMP messages are of the deprecated but used content-type "pkixcmp-poll", so they are using the TCP transport style. In two of the four CMP messages, the content type is not explicitly set, thus they cannot be dissected correctly.
